@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>HongZhou</title>
+		<script src="../js/jquery-3.2.1.js"></script>
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="../css/nav.css"/>
+		<link rel="stylesheet" type="text/css" href="../fonts/font-awesome.min.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	</head>
+	<body style="min-height: 1000px;">
+		<div id="Top"><img src="../img/LOGO.png" alt="" /></div>
+    	<nav class="navbar navbar-default" id="Nav">
+		  <div class="HerderBigbox">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" id="phoneNav" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		      	<img src="../img/left.png" alt="" />
+		      </button>
+		      <img src="../img/LOGO.png" alt="" />
+		      <a class="navbar-brand ReturnHome" href="../index.html">
+		      	<img src="../img/right.png" alt="" />
+		      </a>
+		    </div>
+		    <div class="collapse navbar-collapse phoneDropNav" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav nav-left">
+		        <li>
+		        	<a href="../index.html">首页</a>
+		        	<img class="Jump" src="../img/suoyouchanpin/fanhui.png" alt="" />
+		        </li>
+		        <li class="allProductsNavButton">
+		        	<a href="../allProducts.html">所有产品</a>
+		        	<img class="Jump" src="../img/suoyouchanpin/fanhui.png" alt="" />
+		        	<div class="allProductsNav" style="display: none;left: -419px;">
+						<ul>
+							<p>常规类型</p>
+							<li><a href="#" style="color: #E2C084;">有坊黏合衬</a></li>
+							<li><a href="#">无坊黏合衬</a></li>
+							<li><a href="#">无纺布</a></li>
+						</ul>
+						<ul>
+							<p>图层</p>
+							<li><a href="#">双点</a></li>
+							<li><a href="#">粉点</a></li>
+							<li><a href="#">撒粉</a></li>
+						</ul>
+						<ul>
+							<p>原料底布</p>
+							<li><a href="#">全棉</a></li>
+							<li><a href="#">涤纶</a></li>
+							<li><a href="#">涤棉</a></li>
+							<li><a href="#">弹力</a></li>
+							<li><a href="#">四面弹力</a></li>
+							<li><a href="#">涤粘</a></li>
+							<li><a href="#">尼龙</a></li>
+							<li><a href="#">胶粘</a></li>
+						</ul>
+						<ul>
+							<p>其他</p>
+							<li><a href="#">坊粘</a></li>
+							<li><a href="#">水刺</a></li>
+						</ul>
+					</div>
+		        </li>
+		        <li>
+		        	<a href="../chen.html">粘合衬</a>
+		        	<img class="Jump" src="../img/suoyouchanpin/fanhui.png" alt="" />
+		        </li>
+		        <li>
+		        	<a href="../wufangbu.html">无纺布</a>
+		        	<img class="Jump" src="../img/suoyouchanpin/fanhui.png" alt="" />
+		        </li>
+		        <li>
+		        	<a href="../qiyezhenrong.html">关于我们</a>
+		        	<img class="Jump" src="../img/suoyouchanpin/fanhui.png" alt="" />
+		        </li>
+		        <li>
+		        	<a href="../contactUs.html">联系我们</a>
+		        	<img class="Jump" src="../img/suoyouchanpin/fanhui.png" alt="" />
+		        </li>
+		        <li class="phoneLanguage">
+		        	<a href="../index.html"><img src="../img/Chinese.png" alt="" />中文</a>
+		        	<a href="../indexEn.html"><img src="../img/Chinese.png" alt="" />英文</a>
+		        </li>
+		        <li id="search">
+		        	<a href="#">
+		        		<i class="fa fa-search"></i>
+		        	</a>
+		        	<input type="text" id="searchInput" value="" placeholder="搜索你喜欢的"/>
+		        </li>
+		        
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">语言<span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><img src="../img/Chinese.png" alt="" /><a href="../index.html">中文</a></li>
+		            <li><img src="../img/shouyeqietu/english.png" alt="" /><a href="../indexEn.html">English</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	</body>
+	<script src="../js/nav.js"></script>
+	<script type="text/javascript">
+	  	var allProductsNavA=document.querySelectorAll(".allProductsNav a");
+	  	for(var i=0;i<allProductsNavA.length;i++){
+	  		allProductsNavA[i].onclick=function(){
+	  			for(var j=0;j<allProductsNavA.length;j++){
+	  				allProductsNavA[j].style.color="#5D5D5D";
+	  			}
+	  			this.style.color="#E2C084";
+	  		}
+	  	}
+	  </script>
+</html>

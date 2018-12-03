@@ -1,0 +1,325 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+@media screen and (min-width: 768px) {
+	.china{
+		height: 546px;
+		width: 100%;
+	}
+	.lianxi>ul{
+		width: 1280px;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	.lianxi>ul>li>a{
+		float: left;
+		height: 11px;
+    	line-height: 10px;
+		text-align: center;
+		border-right: 1px solid #8B8B8E;
+		width: auto;
+		padding: 0 10px;
+		color: #838285;
+		text-decoration: none;
+	}
+	.lianxi>ul>li:last-child>a{
+		border:none;
+		
+	}
+	.chinaimg{
+		height: 273px;
+		width: 100%;
+		background: url(../img/chen43.png);
+	}
+	.chinasize{
+		height: 369px;
+		width: 1280px;
+		background-color: #fff;
+		margin: -200px auto;
+		box-shadow: 0px 4px 11px 4px #f3f3f3;
+		overflow: hidden;
+	}
+	.hong{
+		margin-left: 308px;
+		margin-top: 100px;
+		overflow: hidden;
+		color: #535353;
+	}
+	.one{
+		margin-top:31px ;
+	}
+	.hongzhou{
+		font-size: 24px;
+		color: #323232;
+		font-weight: 600;
+	}
+	.tubiao{
+		height: 22px;
+		width: 21px;
+		/*background-color: orange;*/
+		display: inline-block;
+		margin-top:5px;
+		margin-right:10px;
+		background:no-repeat;
+	}
+	.hong>li{
+		width: 230px;
+		height: 40px ;
+		margin-bottom:11px;
+		/*background-color: olive;*/
+		overflow: hidden;
+		white-space: nowrap;
+	}
+	.tubiao{
+		background-image: url(../img/lianxi.png);
+		margin-right: 20px;
+	}
+	.tubiaoone{
+		background-image: url(../img/emaill.png);
+		background-position: 0px 6px;
+	}
+	.tubiaotwo{
+		background-image: url(../img/chen39.png);
+		background-position: 0px 0px;
+	}
+	.hongtwo{
+		margin-right: 308px;
+		float:right;
+		margin-top: -236px;
+		color: #535353;
+		
+	}
+	.hongtwo>li{
+		width: 230px;
+		height:40px;
+		margin-bottom:11px;
+		white-space: nowrap;
+		/*background-color: olive;*/
+		overflow: hidden;
+	}
+	.fenjiexian{
+		height: 16px;
+		background-color: #EBEEF1;
+		display: none;
+	}
+	
+	
+	/*企业阵容*/
+	.qiye{
+		width: 1280px;
+		height: 1660px;
+		/*background-color: palegreen;*/
+		margin: -200px auto;
+	}
+	.lianxi{
+		height:273px;
+		width: 100%;
+		background: url(../img/chen40.png);
+		padding-top: 20px;
+		box-sizing: border-box;
+	}
+	.zhenrong{
+		width: 100px;
+		height: 50px;
+		margin: 70px auto 40px;
+		border-bottom: 3px solid #a0a0a3;
+	}
+	.nanjing{
+		width: 1280px;
+		height: auto;
+		background-color: #fff;
+		margin: 0 auto;
+		font-size:18px ;
+		box-shadow: 0px -4px 11px 4px rgba(0,0,0,0.6);
+		margin-bottom: 20px;
+		overflow: hidden;
+		padding: 10px 100px;
+	}
+	.nanjing p{
+		font-weight: 300;
+	}
+	.qiye span{
+		font-weight: 300;
+	}
+	.shebei{
+		width: 1280px;
+		height: 281px;
+		background-color: #fff;
+		overflow: hidden;
+		margin: 0 auto;
+		box-shadow:  0px 4px 11px 4px #ccc;
+
+	}
+	.shebeiin{
+		height: 150px;
+		width: 850px;
+		/*background-color: salmon;*/
+		margin: 60px auto;
+		padding-top: 30px;
+	}
+	.shebeiin>span{
+		margin-top: -10px;
+	}
+	.jishu{
+		height: 80px;
+		width: 100px;
+
+		border-right: 1px dashed #A0A0A3;
+		float: left;
+		margin-right: 40px;
+		text-align: center;
+	}
+	.shebei{
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 768px){
+	.lianxi>ul{
+		width: 100%;
+		height: 42px;
+		line-height: 42px;
+		padding: 0 10%;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: space-between;
+		box-shadow:  0 2px 12px 0 rgba(0,0,0,0.20);
+		margin-bottom: 0;
+	}
+	.lianxi>ul>li>a{
+		color: #B3B3B6;
+	}
+	.china{ 
+		height: 546px;
+		width: 100%;
+		/*background-color: blue;*/
+	}
+	.chinaimg{
+		height: 273px;
+		width: 100%;
+		display: none;
+		background-color: gold;
+	}
+	.chinasize{
+		height: 469px;
+		width: 100%;
+		/*background-color: aqua;*/
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.hongtwo,.hong{
+		margin-top:30px;
+		margin-left: 20px;
+		color: #535353;
+		/*font-size: 28px;*/
+		
+	}
+	.hongzhou{
+		font-size: 24px;
+		color: #323232;
+		font-weight: 600;
+	}
+	.tubiao{
+		height: 22px;
+		width: 21px;
+		/*background-color: orange;*/
+		display: inline-block;
+		margin-top:5px;
+		margin-right:10px;
+		background:no-repeat;
+	}
+	.hong>li{
+		width: 230px;
+		height: 35px ;
+		/*margin-bottom:11px;*/
+		/*background-color: olive;*/
+		overflow: hidden;
+	}
+	.tubiao{
+		background-image: url(../img/lianxi.png);
+		margin-right: 20px;
+	}
+	.tubiaoone{
+		background-image: url(../img/emaill.png);
+		background-position: 0px 6px;
+	}
+	.tubiaotwo{
+		background-image: url(../img/chen39.png);
+		background-position: 0px 0px;
+	}
+	.hongtwo>li{
+		width: 230px;
+		height:35px;
+		margin-bottom:11px;
+		/*background-color: olive;*/
+		overflow: hidden;
+	}
+	.fenjiexian{
+		height: 16px;
+		background-color: #EBEEF1;
+		display: block;
+	}
+	.xian{
+		height: 4px;
+		width: 70px;
+		background-color: #bdbdbd;
+		border-radius: 10px
+	}
+	.hong>.hongzhou{
+		margin-bottom: 10px;
+	}
+	.xian{
+		margin-bottom: 10px;
+	}
+	
+	/*企业阵容*/
+	.qiye{
+		padding: 15px 20px;
+	}
+	.nanjing{
+		/*background-color: darkcyan;*/
+		padding:0px 0px 10px 0px;
+		
+	}
+	.jishu{
+		/*background-color: firebrick;*/
+		height: 80px;
+		width: 20%;
+		/*background-color: darkcyan;*/
+		margin-left: 20px;
+		border-right: 1px dashed #A0A0A3;
+		float: left;
+		margin-top: 25px;
+	}
+	.shebei{
+		height: 130px;
+		width: 100%;
+		/*background-color: orange;*/
+		overflow: hidden;
+		margin-top:20px ;
+		padding-right: 10px;
+		box-shadow: 0px 4px 11px 4px #ccc;
+	}
+	
+	.shebeiin>span{
+		margin-top: -20px;
+		width:70%;
+		height: 100px;
+		float: right;
+		overflow: auto;
+		/*padding: 0px 0px 0px 20px;*/
+		/*background-color: palegoldenrod;*/
+		margin-top: 15px;
+		/*border-left: 1px dashed #f3f3f3;*/
+	}
+	.jishu{
+		/*display: inline-block;*/
+		margin-top: 20px;
+		text-align: center;
+	}
+	.jishu>img{
+		height: 45px;
+		width: 50px;
+	}
+}

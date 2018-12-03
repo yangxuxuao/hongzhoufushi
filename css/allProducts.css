@@ -1,0 +1,244 @@
+/*margin的样式初始化*/
+body {
+  /*font-size: 62.5%;*/
+  overflow-x: hidden;
+}
+ .fade-enter {
+  opacity: 0;
+}
+.fade-leave {
+  opacity: 1;
+}
+
+.fade-enter-active {
+  transition: opacity .5s;
+}
+
+.fade-leave-active {
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, dl, dd, input, canvas {
+  margin: 0;
+}
+
+/*padding的样式初始化*/
+ol, ul, th, td, input, canvas {
+  padding: 0;
+}
+
+/*列表点点的样式初始化*/
+ul, ol {
+  list-style: none;
+}
+
+/*下划线的样式初始化*/
+a {
+  text-decoration: none;
+}
+
+/*字体样式初始化*/
+em {
+  font-style: normal;
+}
+
+/*图片的初始化*/
+img {
+  border: none;
+}
+
+/*表格的间隙样式初始化*/
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*表单*/
+input, textarea {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+/*清浮动 BFC*/
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clear {
+  zoom: 1;
+}
+@media screen and (max-width:768px) {
+	.top-y{
+		display: none;
+	}
+	.autobox{
+    width: 100%;
+    height: auto;
+    margin:0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+   .content-y{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom:20px;
+    position: relative;
+    overflow: hidden;
+  }
+  .content-y li{
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .content-y li img{
+    width: 100%;
+    height: auto;
+  }
+  .content-y li div{
+   	width: 100%;
+    height: 53px;
+    display: block;
+    font-size: 16px;
+    margin-top: -4px;
+    background-color: #333;
+    padding: 4px 4px;
+    text-align: left;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .content-y li div span{
+    width: 90%;
+    height: 53px;
+    text-align: left;
+    font-size: 12px;
+    margin-top: -4px;
+    color: #DCDCDC;
+  }
+}
+@media screen and (min-width: 768px){
+  .top-y{
+		width: 100%;
+		height: 25px;
+		margin:0 auto;
+		margin-bottom: 20px;
+	}
+.top-y li{
+  float: left;
+  text-align: center;
+  font-size: 18px;
+  color: #535353;
+  margin:5px 50px 10px 0;
+  cursor: pointer;
+}
+.top-y li:nth-of-type(2){
+	color: #323232 ;
+}
+.top-y li img{
+	width: 16px;
+	height: 16px;
+	margin-right: 4px;	
+}
+.autobox{
+	width: 100%;
+	height: auto;
+	margin:0 auto;
+}
+.content-y{
+	width: 100%;
+	height: 546px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.content-y li{
+ 	width: 410px;
+    height: 546px;
+	}
+.content-y li img{
+	width: 410px;
+	height: 426px;
+}
+.content-y li div{
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 120px;
+	margin-top: -4px;
+	background-color: #333;
+	color: #DCDCDC;
+	display: block;
+}
+.content-y li div span{
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 120px;
+	margin-top: -4px;
+	background-color: #333;
+	color: #DCDCDC;
+	display: block;
+  }
+  	.top-y{
+		width: 1280px;
+		height: 25px;
+		margin:10px auto;
+	}
+	.top-y li{
+	  float: left;
+	  text-align: center;
+	  font-size: 18px;
+	  color: #535353;
+	  margin:5px 40px 10px 0;
+	  cursor: pointer;
+	}
+	.top-y li:nth-of-type(2){
+		color: #323232 ;
+	}
+	.top-y li img{
+		width: 16px;
+		height: 16px;
+		margin-right: 4px;	
+	}
+	.autobox{
+		width: 1280px;
+		height: auto;
+		margin:0 auto;
+	}
+	.content-y{
+		width: 100%;
+		height: 546px;
+		margin-bottom: 20px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.content-y li{
+	 	width: 410px;
+	    height: 546px;
+	}
+	.content-y li img{
+		width: 100%;
+		height: 426px;
+	}
+	.content-y li span{
+		width: 100%;
+		height: 120px;
+		text-align: center;
+		font-size: 18px;
+		line-height: 120px;
+		margin-top: -4px;
+		background-color: #333;
+		color: #DCDCDC;
+		display: block;
+	}
+}

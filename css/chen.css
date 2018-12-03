@@ -1,0 +1,298 @@
+/*margin的样式初始化*/
+body {
+  /*font-size: 62.5%;*/
+  overflow-x: hidden;
+}
+ .fade-enter {
+  opacity: 0;
+}
+
+.fade-leave {
+  opacity: 1;
+}
+
+.fade-enter-active {
+  transition: opacity .5s;
+}
+
+.fade-leave-active {
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, dl, dd, input, canvas {
+  margin: 0;
+}
+
+/*padding的样式初始化*/
+ol, ul, th, td, input, canvas {
+  padding: 0;
+}
+
+/*列表点点的样式初始化*/
+ul, ol {
+  list-style: none;
+}
+
+/*下划线的样式初始化*/
+a {
+  text-decoration: none;
+}
+
+/*字体样式初始化*/
+em {
+  font-style: normal;
+}
+
+/*图片的初始化*/
+img {
+  border: none;
+}
+
+/*表格的间隙样式初始化*/
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*表单*/
+input, textarea {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+/*清浮动 BFC*/
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.clear {
+  zoom: 1;
+}
+@media screen and (max-width:768px) {
+  .top-t{
+    display: none;
+  } 
+  .chenBigbox{
+    width: 100%;
+    height: auto;
+    margin:0 auto 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  .content-t{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .content-t li{
+    float: left;
+    width: 47%;
+    height: auto;
+    margin-left: 8px;
+  }
+  .content-t li img{
+    width: 100%;
+    height: auto;
+  }
+  .content-t li span{
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom:10px;
+    font-size: 16px;
+  }
+  .content-t li div{
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1366px){
+  .top-t{
+    width: 100%;
+    height: 25px;
+   margin:0 auto;
+   margin-bottom: 20px;
+}
+.top-t a{
+	text-decoration: none;
+	color: #535353;
+}
+.top-t a:hover{
+	text-decoration: none;
+	color: #535353;
+}
+.top-t li{
+  float: left;
+  width: 54px;
+  height: 25px;
+  text-align: center;
+  font-size: 18px;
+  color: #535353;
+  margin:5px 20px 10px 0;
+  cursor: pointer;
+}
+.top-t>li:nth-of-type(2){
+  color: #D6A650 ;
+}
+.chenBigbox{
+  width: 100%;
+  height: auto;
+  margin:0 auto;
+  display: none;
+}
+.chenBigbox1{
+  width: 100%;
+  height: auto;
+  margin:0 auto;
+}
+.content-t{
+  width: 100%;
+  margin:0 auto;
+  height: 448px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.content-t>li{
+    width: 302px;
+    height: 448px;
+    border: 1px solid #DCDCDC;
+}
+.content-t li img{
+  height: 296px;
+  width: 100%;
+}
+
+.content-t li span{
+  font-size: 14px;
+  width: 100%;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.content-t li .teshu{
+  height: 40px;
+  width: 180px;
+  display: block;
+  margin:0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.content-t li div{
+  width: 256px;
+  height: 52px;
+  display: block;
+  background: #D6A650;
+  text-align: center;
+  line-height: 52px; 
+  color: #fff;
+  font-size: 18px;
+  margin: 0 auto;
+}
+.cd{
+   border: 1px solid #fff!important;
+}
+}
+@media (min-width:1366px) and (max-width: 10000px) {
+	.top-t{
+	  width: 1280px;
+	  height: 25px;
+	 margin:0 auto;
+	   margin-bottom: 20px;
+	}
+	.top-t a{
+		text-decoration: none;
+		color: #535353;
+	}
+	.top-t a:hover{
+		text-decoration: none;
+		color: #535353;
+	}
+	.top-t li{
+	  float: left;
+	  width: auto;
+	  height: 25px;
+	  text-align: center;
+	  font-size: 18px;
+	  color: #535353;
+	  margin:5px 20px 10px 0;
+	  cursor: pointer;
+	}
+	.top-t>li:nth-of-type(2){
+	  color: #D6A650 ;
+	}
+	.chenBigbox{
+	  width: 1280px;
+	  height: auto;
+	  margin:0 auto;
+	  display: none;
+	}
+	.chenBigbox1{
+	  width: 1280px;
+	  height: auto;
+	  margin:0 auto;
+	}
+	.content-t{
+	  width: 100%;
+	  margin:0 auto;
+	  height: 448px;
+	  margin-bottom: 20px;
+	  display: flex;
+	  justify-content: space-between;
+	}
+	.content-t>li{
+	    width: 302px;
+	    height: 448px;
+	    border: 1px solid #DCDCDC;
+	}
+	.content-t li img{
+	  height: 296px;
+	  width: 100%;
+	}
+	
+	.content-t li span{
+	  font-size: 14px;
+	  width: 100%;
+	  height: 20px;
+	  display: inline-block;
+	  text-align: center;
+	  margin: 30px 0;
+	}
+	.content-t li .teshu{
+	  height: 40px;
+	  width: 180px;
+	  display: block;
+	  margin:0 auto;
+	  margin-top: 20px;
+	  margin-bottom: 20px;
+	}
+	.content-t li div{
+	  width: 256px;
+	  height: 52px;
+	  display: block;
+	  background: #D6A650;
+	  text-align: center;
+	  line-height: 52px; 
+	  color: #fff;
+	  font-size: 18px;
+	  margin: 0 auto;
+	  cursor: pointer;
+	  opacity: 0;
+	  transition: all 0.3s;
+	}
+	.content-t li:hover div{
+		opacity: 1;
+	}
+	.cd{
+	   border: 1px solid #fff!important;
+	}
+}
+

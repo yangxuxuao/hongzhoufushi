@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Nonwoven fabric</title>
+    <link rel="stylesheet" href="css/chen.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  </head>
+  <body>
+		<div class="header"></div>
+     <ul class="top-t">
+        <li>Fusible Interlining
+
+</li>
+        <li class="chenNav"><a href="#">Fusible Interlining
+
+</a></li>
+        <li class="chenNav"><a href="#" style="color: #D6A650;">Nonwoven fabric
+
+</a></li>
+     </ul>
+    <div class="chenBigbox" style="display: none">
+          <ul class="content-t">
+            <li>
+              <img src="./img/粘合衬页/有纺四面弹力双点（粉点）粘合衬.png" alt="">
+              <span>Spinning four face elastic double point (powder point) adhesive lining</span>
+              <div>View the details</div>
+            </li>
+             <li>
+              <img src="./img/粘合衬页/有纺弹力双点（粉点）粘合衬.png" alt="">
+              <span class="teshu">Spinning elastic double point (powder point) adhesive lining</span>
+              <div>View the details</div>
+            </li>
+             <li>
+              <img src="./img/粘合衬页/有纺全棉双点（粉点）粘合衬.png" alt="">
+              <span>Spun cotton double point (powder point) adhesive lining</span>
+              <div>View the details</div>
+            </li>
+             <li>
+              <img src="./img/粘合衬页/有纺涤棉双点（粉点）粘合衬.png" alt="">
+              <span>Spinning polyester cotton double point (powder point) adhesive lining</span>
+              <div>View the details</div>
+            </li>
+          </ul>
+           <ul class="content-t">
+            <li>
+              <img src="./img/粘合衬页/有纺涤粘双点（粉点）经编粘合衬.png" alt="">
+              <span>Spinning polyester sticky double point (powder point) warp knitting linings</span>
+              <div>View the details</div>
+            </li>
+             <li>
+              <img src="./img/粘合衬页/无纺涤纶双点（粉点撒粉）粘合衬.png" alt="">
+              <span>Nonwoven polyester double point (powder point powder) adhesive lining</span>
+              <div>View the details</div>
+            </li>
+             <li>
+              <img src="./img/粘合衬页/无纺尼龙双点（粉点）粘合衬.png" alt="">
+              <span>Non woven nylon double point (powder point) adhesive lining</span>
+              <div>View the details</button>
+            </li>
+             <li class="cd">
+             
+            </li>
+          </ul>
+        </div>
+        <div class="chenBigbox" style="display:block">
+             <ul class="content-t">
+            <li>
+              <img src="img/wyfangbu/chen8.jpg" alt="">
+              <span>Polyester impregnated non-woven fabric</span>
+              <div>View the details</div>
+            </li>
+             <li>
+              <img src="img/wyfangbu/chen10.jpg" alt="">
+              <span>Spunbonded nonwoven fabric</span>
+              <div>View the details</div>
+            </li>
+             <li>
+              <img src="img/wyfangbu/chen7.jpg" alt="">
+              <span>Nylon impregnated nonwoven fabric</span>
+              <div>View the details</div>
+            </li>
+             <li>
+              <img src="img/wyfangbu/chen9.jpg" alt="">
+              <span>Viscose impregnated non-woven fabric</span>
+              <div>View the details</div>
+            </li>
+          </ul>
+        </div>
+        </div>
+  <div class="footer"></div>
+  </body>
+  <script src="./js/jquery-3.2.1.js"></script>
+  <script type="text/javascript">
+  	$(".header").load("./public/headerEn.html");
+  	$(".footer").load("./public/footerEn.html");
+  </script>
+	<script type="text/javascript">
+  	var chenNav=document.getElementsByClassName("chenNav");
+  	var chenNavA=document.querySelectorAll(".chenNav>a");
+  	var chenBigbox=document.getElementsByClassName("chenBigbox");
+  	console.log(chenBigbox);
+  	console.log(chenNav);
+  	chenNav[0].onclick=function(){
+  		chenNavA[0].style.color="#D6A650";
+  		chenNavA[1].style.color="#535353";
+  		chenBigbox[0].style.display="block";
+  		chenBigbox[1].style.display="none";
+  	}
+  	chenNav[1].onclick=function(){
+  		chenNavA[0].style.color="#535353";
+  		chenNavA[1].style.color="#D6A650";
+  		chenBigbox[1].style.display="block";
+  		chenBigbox[0].style.display="none";
+  	}
+  </script>
+  <script type="text/javascript">
+	    var ckxq = document.querySelectorAll(".content-t li div");
+	    for(var i=0;i<ckxq.length;i++){
+	    	ckxq[i].onclick=function(){  
+	        window.location.href="xiangqingEn.html";
+	    	}
+	    }
+  </script>
+</html>

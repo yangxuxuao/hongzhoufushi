@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>HongZhou</title>
+		<script src="../js/jquery-3.2.1.js"></script>
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="../css/nav.css"/>
+		<link rel="stylesheet" type="text/css" href="../fonts/font-awesome.min.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	</head>
+	<body style="min-height: 1000px;">
+		<div id="Top"><img src="../img/LOGO.png" alt="" /></div>
+    	<nav class="navbar navbar-default" id="Nav">
+		  <div class="HerderBigbox">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" id="phoneNav" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		      	<img src="../img/left.png" alt="" />
+		      </button>
+		      <img src="../img/LOGO.png" alt="" />
+		      <a class="navbar-brand ReturnHome" href="../indexEn.html">
+		      	<img src="../img/right.png" alt="" />
+		      </a>
+		    </div>
+		    <div class="collapse navbar-collapse phoneDropNav" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav nav-left" style="width: 826px;margin-left: -413px;">
+		        <li>
+		        	<a href="../indexEn.html">home page</a>
+		        	<img class="Jump" src="../img/suoyouchanpin/fanhui.png" alt="" />
+		        </li>
+		        <li class="allProductsNavButton">
+		        	<a href="../allProductsEn.html">All products</a>
+		        	<img class="Jump" src="../img/suoyouchanpin/fanhui.png" alt="" />
+		        	<div class="allProductsNav" style="display: none;left: -346px;">
+						<ul>
+							<p>Conventional type</p>
+							<li><a href="#" style="color: #E2C084;">Bonded linings</a></li>
+							<li><a href="#">No mill adhesive lining</a></li>
+							<li><a href="#">Nonwoven fabric</a></li>
+						</ul>
+						<ul>
+							<p>layer</p>
+							<li><a href="#">Double point</a></li>
+							<li><a href="#">Powder point</a></li>
+							<li><a href="#">Powder</a></li>
+						</ul>
+						<ul>
+							<p>Raw material</p>
+							<li><a href="#">Whole cotton</a></li>
+							<li><a href="#">Polyester fiber</a></li>
+							<li><a href="#">Polyester cotton</a></li>
+							<li><a href="#">Elastic force</a></li>
+							<li><a href="#">Four plane elastic force</a></li>
+							<li><a href="#">Polyester and viscose</a></li>
+							<li><a href="#">nylon</a></li>
+							<li><a href="#">Stickiness</a></li>
+						</ul>
+						<ul>
+							<p>Other</p>
+							<li><a href="#">Square sticky</a></li>
+							<li><a href="#">Spunlace</a></li>
+						</ul>
+					</div>
+		        </li>
+		        <li>
+		        	<a href="../chenEn.html">Adhesive lining</a>
+		        	<img class="Jump" src="../img/suoyouchanpin/fanhui.png" alt="" />
+		        </li>
+		        <li>
+		        	<a href="../wufangbuEn.html">Nonwoven fabric</a>
+		        	<img class="Jump" src="../img/suoyouchanpin/fanhui.png" alt="" />
+		        </li>
+		        <li>
+		        	<a href="../qiyezhenrongEn.html">About us</a>
+		        	<img class="Jump" src="../img/suoyouchanpin/fanhui.png" alt="" />
+		        </li>
+		        <li>
+		        	<a href="../contactUsEn.html">Contact us</a>
+		        	<img class="Jump" src="../img/suoyouchanpin/fanhui.png" alt="" />
+		        </li>
+		        <li class="phoneLanguage">
+		        	<a href="../index.html"><img src="../img/Chinese.png" alt="" />Chinese</a>
+		        	<a href="../indexEn.html"><img src="../img/Chinese.png" alt="" />English</a>
+		        </li>
+		        <li id="search">
+		        	<a href="#">
+		        		<i class="fa fa-search"></i>
+		        	</a>
+		        	<input type="text" id="searchInput" value="" placeholder="Search for what you like"/>
+		        </li>
+		        
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language<span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><img src="../img/Chinese.png" alt="" /><a href="../index.html">Chinese</a></li>
+		            <li><img src="../img/shouyeqietu/english.png" alt="" /><a href="../index.html">English</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	</body>
+	<script src="../js/nav.js"></script>
+	<script type="text/javascript">
+	  	var allProductsNavA=document.querySelectorAll(".allProductsNav a");
+	  	for(var i=0;i<allProductsNavA.length;i++){
+	  		allProductsNavA[i].onclick=function(){
+	  			for(var j=0;j<allProductsNavA.length;j++){
+	  				allProductsNavA[j].style.color="#5D5D5D";
+	  			}
+	  			this.style.color="#E2C084";
+	  		}
+	  	}
+    </script>
+</html>

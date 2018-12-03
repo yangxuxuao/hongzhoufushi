@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>All products</title>
+</head>
+	<link rel="stylesheet" href="css/allProducts.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<body>
+	<div class="header"></div>
+	<div class="allProductsNav" style="display: none;">
+		<ul>
+			<p>Conventional type</p>
+			<li><a href="#" style="color: #E2C084;">Bonded linings</a></li>
+			<li><a href="#">Bonded linings</a></li>
+			<li><a href="#">Nonwoven fabric</a></li>
+		</ul>
+		<ul>
+			<p>layer</p>
+			<li><a href="#">Double point</a></li>
+			<li><a href="#">Powder point</a></li>
+			<li><a href="#">Powder</a></li>
+		</ul>
+		<ul>
+			<p>Raw material</p>
+			<li><a href="#">Whole cotton</a></li>
+			<li><a href="#">Polyester fiber</a></li>
+			<li><a href="#">Polyester cotton</a></li>
+			<li><a href="#">Elastic force</a></li>
+			<li><a href="#">Four plane elastic force</a></li>
+			<li><a href="#">Polyester and viscose</a></li>
+			<li><a href="#">nylon</a></li>
+			<li><a href="#">Stickiness</a></li>
+		</ul>
+		<ul>
+			<p>Other</p>
+			<li><a href="#">Square sticky</a></li>
+			<li><a href="#">Spunlace</a></li>
+		</ul>
+	</div>
+     <ul class="top-y">
+        <li><img src="img/fanhui@2x.png" alt="">Return</li>
+        <li>All products
+
+</li>
+  	</ul>
+    <div>
+       <div class="autobox">
+			<ul class="content-y">
+				<li><img src="img/1@2-x.png" alt="">
+				<div>
+<span>Spinning polyester cotton double point (powder point) adhesive lining</span>
+				</div>
+					
+				</li>
+				<li><img src="img/2@2-x.png" alt="">
+				<div>
+<span>Spinning polyester cotton double point (powder point) adhesive lining</span>
+				</div>
+					
+				</li>
+				<li><img src="img/2@2-x.png" alt="">
+				<div>
+<span>Spinning polyester cotton double point (powder point) adhesive lining</span>
+				</div>
+					
+				</li>
+			</ul>
+			<ul class="content-y">
+				<li><img src="img/2@2-x.png" alt="">
+				<div>
+<span>Spinning four face elastic double point (powder point) adhesive lining</span>
+				</div>
+					
+				</li>
+				<li><img src="img/3@2-x.png" alt="">
+				<div>
+				<span>Spinning polyester sticky double point (point) warp knitting linings</span>
+				</div>
+					
+				</li>
+				<li><img src="img/3@2-x.png" alt="">
+				<div>
+				<span>Nonwoven polyester double point (powder point powder) adhesive lining</span>
+				</div>
+				</li>
+			</ul>
+			<ul class="content-y">
+				<li><img src="img/3@2-x.png" alt="">
+				<div>
+<span>Non woven nylon double point (powder point) adhesive lining</span>
+				</div>
+					
+				</li>
+				<li><img src="img/9@2-x.png" alt="">
+				<div>
+<span>Polyester impregnated non-woven fabric
+
+</span>
+				</div>
+					
+				</li>
+				<li><img src="img/7@2-x.png" alt="">
+				<div>
+<span>Viscose impregnated non-woven fabric
+
+</span>
+				</div>
+					
+				</li>
+			</ul>
+			<ul class="content-y">
+				<li><img src="img/8@2-x.png" alt="">
+				<div>
+					<span>Spunbonded nonwoven fabric
+
+</span>
+				</div>
+					
+				</li>
+				<li><img src="img/9@2-x.png" alt="">
+				<div>
+					<span>spunlace nonwoven
+
+</span>
+				</div>
+					
+				</li>
+				<li>
+				</li>
+			</ul>
+       </div>
+       </div>
+       <div class="footer"></div>
+</body>
+<script src="js/jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+  	$(".header").load("./public/headerEn.html");
+  	$(".footer").load("./public/footerEn.html");
+  </script>
+  <script type="text/javascript">
+  	var allProductsNavA=document.querySelectorAll(".allProductsNav a");
+  	for(var i=0;i<allProductsNavA.length;i++){
+  		allProductsNavA[i].onclick=function(){
+  			for(var j=0;j<allProductsNavA.length;j++){
+  				allProductsNavA[j].style.color="#5D5D5D";
+  			}
+  			this.style.color="#E2C084";
+  		}
+  	}
+  </script>
+</html>	

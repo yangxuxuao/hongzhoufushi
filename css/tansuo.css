@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+@media (min-width: 768px) and (max-width: 1920px) {
+	.tansuoimg{
+		width: 100%;
+		height: 273px;
+		background-color: khaki;
+	}
+	body{
+		background-color: #fafafa;
+	}
+	.Welcome{
+		height: 481px;
+		width: 1280px;
+		background-color: #fff;
+		margin:-200px auto 100px;
+		box-shadow: 0px 4px 11px 4px #f3f3f3;
+	}
+	.come{
+		font-size: 20px;
+		font-weight: 600;
+		margin-top: -400px;
+		margin-left:700px ;
+	}
+	.xian{
+		height: 1px;
+		width: 70px;
+		background-color: #bdbdbd;
+		/*border-radius: 10px*/
+		margin-top: 20px;
+	}
+	.spirit{
+		font-size: 18px;
+		color: #323232;
+		margin-top: 50px;
+		margin-left:700px;
+		margin-right: 108px;
+	}
+	.tansuoimg{
+		width: 100%;
+		height: 273px;
+		background: url(../img/chen40.png);
+		padding-top: 20px;
+		box-sizing: border-box;
+	}
+	.tansuoimg>ul{
+		width: 1280px;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	.tansuoimg>ul>li>a{
+		float: left;
+		width: 100px;
+		height: 25px;
+		text-align: center;
+		border-right: 1px solid #8B8B8E;
+	}
+	.tansuoimg>ul>li:last-child>a{
+		border:none;
+		
+	}
+	.tansuoimg>ul>li>a{
+		color: #838285;
+		text-decoration: none;
+		width: auto;
+		padding: 0 10px;
+		height: 11px;
+    	line-height: 10px;
+	}
+}
+@media screen and (max-width: 768px){
+	.Welcome>img{
+		display: none;
+	}
+	.Welcome{
+		width: 100%;
+		height: 800px;
+		/*background-color: olivedrab;*/
+		border-bottom: 10px solid #ebebf1;
+	}
+	.phoneimg{
+		height: 400px;
+		width: 100%;
+		background: url(../img/chen41.png) no-repeat;
+		background-size:100% 100% ;
+	}
+	.come{
+		font-size: 52px;
+		/*font-weight: 600;*/
+		margin-top: -130px;
+		margin-left:57px ;
+		color:white;
+	}
+	.xian{
+		height: 6px;
+		width: 170px;
+		background-color: #fff;
+		border-radius: 10px;
+		margin-top: 40px;
+	}
+	.spirit{
+		margin-left:57px;
+		margin-top: 40px;
+		font-size:28px ;
+		margin-right: 68px;
+	}
+	.tansuoimg>ul{
+		width: 100%;
+		height: 42px;
+		line-height: 42px;
+		padding: 0 10%;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: space-between;
+		box-shadow:  0 2px 12px 0 rgba(0,0,0,0.20);
+		margin-bottom: 0;
+	}
+	.tansuoimg>ul>li>a{
+		color: #B3B3B6;
+	}
+}

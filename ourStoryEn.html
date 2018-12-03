@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>ourStory</title>
+	</head>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	@media screen and (min-width: 768px) {
+		.WelcomeApp{
+			display: none;
+		}
+		.tansuoimg{
+			width: 100%;
+			height: 273px;
+			background: url(img/chen40.png);
+			padding-top: 20px;
+			box-sizing: border-box;
+		}
+		.tansuoimg>ul{
+			width: 1280px;
+			margin: 0 auto;
+			box-sizing: border-box;
+		}
+		.tansuoimg>ul>li>a{
+			float: left;
+			width: auto;
+			padding: 0 10px;
+			height: 25px;
+			text-align: center;
+			border-right: 1px solid #8B8B8E;
+		}
+		.tansuoimg>ul>li:last-child>a{
+			border:none;
+			
+		}
+		.tansuoimg>ul>li>a{
+			color: #838285;
+			text-decoration: none;
+			height: 11px;
+    		line-height: 10px;
+		}
+		body{
+			background-color: #fafafa;
+		}
+		.Welcome{
+			height: auto;
+			width: 1280px;
+			background-color: #FFFFFF;
+			margin:-200px auto 100px;
+			box-shadow: 0px 4px 11px 4px #f3f3f3;
+			padding: 60px 10% 40px;
+			box-sizing: border-box;
+			position: relative;
+		}
+		.years{
+			width: 100%;
+			height: 47px;
+			display: flex;
+			justify-content: space-between;
+			font-size: 36px;
+			color: #323232;
+			padding: 0 1%;
+			box-sizing: border-box;
+			letter-spacing: -0.58px;
+			margin-bottom: 20px;
+		}
+		.Welcome ul{
+			width: 90%;
+			height: 70px;
+			margin: 0 auto 20px;
+			display: flex;
+			justify-content: space-between;
+		}
+		.Welcome li{
+			width: 2px;
+			height: 21px;
+			background: #D8D8D8;
+		}
+		.timeAxisPlus{
+			height: 100%!important;
+			width: 4px!important;
+			background-color: # #9B9B9F!important;
+			border-radius: 8px;
+		}
+		.Welcome>div>p{
+			font-size: 20px;
+			color: #323232;
+			letter-spacing: -0.32px;
+			text-align: center;
+			margin-bottom: 0;
+		}
+		.WelcomeLeft,.WelcomeRight{
+			width: 38px;
+			height: 38px;
+			position: absolute;
+			top: 140px;
+			z-index: 999;
+			cursor: pointer;
+		}
+		.WelcomeLeft{
+			left: 5%;
+			background: url(img/chen35.png);
+		}
+		.WelcomeRight{
+			right: 5%;
+			background: url(img/chen36.png);
+		}
+	}
+	@media screen and (max-width: 768px){
+		.tansuoimg>ul{
+			width: 100%;
+			height: 42px;
+			line-height: 42px;
+			padding: 0 10%;
+			box-sizing: border-box;
+			display: flex;
+			justify-content: space-between;
+			box-shadow:  0 2px 12px 0 rgba(0,0,0,0.20);
+			margin-bottom: 0;
+		}
+		.tansuoimg>ul>li>a{
+			color: #B3B3B6;
+		}
+		.Welcome>img{
+			display: none;
+		}
+		.Welcome{
+			display: none;
+		}
+		.WelcomeApp{
+			width: 95%;
+			height: auto;
+			margin: 0 auto;
+		}
+		.WelcomeApp>p{
+			font-size: 24px;
+			color: #323232;
+		}
+		.WelcomeApp>img{
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+		.WelcomeAppYear{
+			font-size: 32px!important;
+			color: #323232!important;
+			letter-spacing: -0.83px!important;
+			font-weight: 800!important;
+			margin: 20px 0 !important;
+		}
+	}
+	</style>
+	<body>
+		<div class="header"></div>
+		<div class="tansuoimg">
+			<ul>
+				<li><a href="tansuohongzhouEn.html">explore HongZhou</a></li>
+				<li><a href="ourStoryEn.html">our story</a></li>
+				<li><a href="qiyezhenrongEn.html">Enterprise lineup</a></li>
+			</ul>
+		</div>
+		<div class="WelcomeApp">
+			<p class="WelcomeAppYear">2006 year</p>
+			<p>Enterprise rename   HongZhou</p>
+			<p>Relocated in 2006, officially renamed HongZhou Clothing materials Co., Ltd.</p>
+			<p class="WelcomeAppYear">1985 year</p>
+			<img src="img/chen33.png" alt="" />
+			<p>Mr. Zhang contracted to become CEO</p>
+			<p>In 1985, China implemented the enterprise reform and implemented the contractual responsibility system. In line with the trend of the times, the contracting enterprises became CEO.</p>
+			<p class="WelcomeAppYear">1985 year</p>
+			<img src="img/chen32.png" alt="" />
+			<p>XianNing Limited company set up(HongZhou predecessor)</p>
+			<p>XianNingIt is a company specializing in the production and sale of clothing adhesive linings, impregnated non-woven fabrics, and adhesive lining for waterjet weaving. Located in Nanjing, the capital of Jiangsu Province, the company is close to Shanghai Nanjing Expressway, 104 and 318 national highway, Beijing Shanghai, Hu Hanrong and NInghang high speed rail.</p>
+		</div>
+		<div class="Welcome">
+			<p class="WelcomeLeft"></p>
+			<p class="WelcomeRight"></p>
+			<div style="height: 360px;">
+				<div class="years">
+					<div>1984</div>
+					<div>1985</div>
+					<div>1986</div>
+				</div>
+				<ul>
+					<li class="timeAxisPlus"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li class="timeAxisPlus" style="background-color: #323232;"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li class="timeAxisPlus"></li>
+				</ul>
+				<p>XianNing Limited company set up</p>
+				<p>(HongZhou predecessor)</p>
+				<div style="margin-top:20px;font-size: 18px;color: #323232;letter-spacing: -0.29px;">
+					<img style="float: left;" src="img/chen32.png" alt="" />
+					<span style="float: left;height:125px;margin-left: 10px;width: 76%;">Xian Ning Co., Ltd. is a company specializing in the production and sale of clothing adhesive linings, impregnated non-woven fabrics, adhesive lining spray machine woven fabric. Located in Nanjing, the capital of Jiangsu Province, the company is close to Shanghai Nanjing Expressway, 104 and 318 national highway, Beijing Shanghai, Hu Hanrong and NInghang high speed rail.</span>
+				</div>
+			</div>
+			<div style="height: 320px;display: none;">
+				<div class="years">
+					<div>1997</div>
+					<div>1998</div>
+					<div>1999</div>
+				</div>
+				<ul>
+					<li class="timeAxisPlus"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li class="timeAxisPlus" style="background-color: #323232;"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li class="timeAxisPlus"></li>
+				</ul>
+				<p>Mr. Zhang contracted to become CEO</p>
+				<div style="margin-top:20px;font-size: 18px;color: #323232;letter-spacing: -0.29px;">
+					<img style="float: left;" src="img/chen33.png" alt="" />
+					<span style="float: left;height:125px;margin-left: 10px;max-width: 850px;">In 1985, China implemented the enterprise reform and implemented the contractual responsibility system. In line with the trend of the times, the contracting enterprises became CEO.</span>
+				</div>
+			</div>
+			<div style="height: 240px;display: none;">
+				<div class="years">
+					<div>2005</div>
+					<div>2006</div>
+					<div>2007</div>
+				</div>
+				<ul>
+					<li class="timeAxisPlus"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li class="timeAxisPlus" style="background-color: #323232;"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li class="timeAxisPlus"></li>
+				</ul>
+				<p>Enterprise rename&nbsp;&nbsp;HongZhou</p>
+				<div style="margin-top:20px;font-size: 18px;color: #323232;letter-spacing: -0.29px;">In 2006, the relocation of enterprises was officially renamed the Hong Zhou clothing material Co., Ltd.</div>
+			</div>
+		</div>
+		<div class="footer"></div>
+	</body>
+	<script src="js/jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(".header").load("./public/headerEn.html");
+		$(".footer").load("./public/footerEn.html");
+	</script>
+	<script type="text/javascript">
+		var WelcomeLeft=document.getElementsByClassName("WelcomeLeft")[0];
+		var WelcomeRight=document.getElementsByClassName("WelcomeRight")[0];
+		var WelcomeBox=document.querySelectorAll(".Welcome>div");
+		var num=0;
+		WelcomeLeft.onclick=function(){
+			num--;
+			if(num<=0){
+				num=0;
+			}
+			for(var i=0;i<WelcomeBox.length;i++){
+				WelcomeBox[i].style.display="none";
+			}
+			WelcomeBox[num].style.display="block";
+		}
+		WelcomeRight.onclick=function(){
+			num++;
+			if(num>=WelcomeBox.length-1){
+				num=WelcomeBox.length-1
+			}
+			for(var i=0;i<WelcomeBox.length;i++){
+				WelcomeBox[i].style.display="none";
+			}
+			WelcomeBox[num].style.display="block";
+		}
+	</script>
+</html>
